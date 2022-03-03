@@ -1,5 +1,3 @@
-// fetch(https://restcountries.com/v3.1/regionalbloc/eu)
-
 async function render() {
   let prend = await fetch("https://restcountries.com/v3.1/region/europe");
   let data = await prend.json();
