@@ -11,3 +11,8 @@ async function render() {
   document.getElementById("list").innerHTML = results;
 }
 render();
+
+function reload() {
+  // alert("T'en fais pas tout va bien se passer");
+  location.reload();
+}
